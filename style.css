@@ -1,0 +1,355 @@
+.navbar-expand-lg {
+  height: 6rem;
+}
+.nav-item a {
+  color: white;
+}
+.navbar {
+  background-color: rgb(187, 95, 110);
+  /* background-color: #23828e ; */
+  /* text-decoration: black ; */
+}
+u{
+  color: white;
+}
+.container-fluid a{
+color:white;
+font-family: poppins sans-serif;
+font-size: 1.3rem;
+}
+
+.nav-item .nav-link.disabled {
+  color: white !important; /* Forces the color to be white */
+}
+
+
+.nav-item:hover {
+  text-decoration: rgb(13, 173, 173);
+}
+.nav-itemdropdown .li{
+  color:rgb(255, 0, 212);
+}
+/* .button {
+  color:#e44f32;
+} */
+/* .nav-link{
+  color: white;
+} */
+.banner {
+  position: relative;
+  overflow: hidden;
+  background-image: url(./wp3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30rem;
+  width: 100vm;
+}
+
+.left {
+  font-size: 3.5rem;
+  padding: 6rem;
+  color: white;
+}
+
+
+
+.stauts {
+  max-width: 100%;
+  margin: 2rem auto;
+  /* Space between navbar and carousel */
+  padding: 0 1rem;
+
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  /* padding: 2rem; */
+}
+
+.stauts .slick-list {
+  overflow: hidden;
+  /* Hide overflowing elements */
+}
+
+.stauts .slick-slide {
+  padding: 0 0.5rem;
+  /* Horizontal padding between slides */
+}
+
+.stauts .image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  /* Center text within the container */
+  overflow: hidden;
+  transition: transform 0.2s ease;
+}
+
+.stauts .circle-image {
+  width: 180px;
+  /* Adjust the size as needed */
+  height: 180px;
+  /* Adjust the size as needed */
+  border-radius: 50%;
+  /* Make the image circular */
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  /* Add shadow to the image */
+  margin-bottom: 0.5rem;
+  /* Space between image and title */
+  border: 3px solid #ffffff4b;
+  /* White border around the image */
+  transition: border-color 0.3s ease;
+  /* Smooth transition for border color */
+}
+
+.stauts .circle-image:hover {
+  background-color: #84B74E;
+  /* Light gray border color on hover */
+}
+
+.stauts .image-title {
+  margin: 0;
+  font-size: 1rem;
+  color: #333;
+  text-align: center;
+  /* width: 100vh; */
+  /* Ensure text takes full width of container */
+}
+
+.container1 {
+  background-color: #EAF8FB;
+  padding: 1rem;
+  display: flex;
+}
+
+.row1 {
+  display: flex;
+  /* padding: rem; */
+  flex-wrap: wrap;
+}
+
+.filters {
+  padding: 20px;
+  background-color: #ffffff; /* White background for a clean look */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  margin-bottom: 20px;
+  margin-left: 2rem;
+  
+}
+
+.filters-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #333; /* Darker color for title */
+  text-align: center; /* Center the title */
+  text-transform: uppercase; /* Uppercase for a modern look */
+  letter-spacing: 1px; /* Slight letter spacing for readability */
+}
+
+.filter {
+  margin-bottom: 20px;
+}
+
+.filter-label {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  color: #555; /* Slightly darker text */
+}
+
+.filter-label input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.filter-label .checkmark {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  border: 2px solid #1f6575; /* Use orange color */
+  border-radius: 3px; /* Rounded checkmark */
+  margin-right: 10px;
+  background-color: #f0f0f0; /* Light background for checkmark */
+}
+
+.filter-label input[type="checkbox"]:checked + .checkmark {
+  background-color: #32CD32; /* Green color */
+  border-color: #32CD32;
+}
+
+.filter-slider {
+  width: 100%;
+  accent-color: #1f6575; 
+}
+
+.filter-select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ddd; /* Light border */
+  background-color: #f9f9f9; /* Light background */
+  color: #333; /* Darker text */
+  font-size: 1rem;
+}
+
+.filter-input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ddd; /* Light border */
+  background-color: #f9f9f9; /* Light background */
+  color: #333; /* Darker text */
+  font-size: 1rem;
+}
+
+.filter-apply {
+  width: 100%;
+  padding: 10px;
+  background-color: #1f6575; /* Orange color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.filter-apply:hover {
+  background-color: #E44F32; /* Darker shade of orange on hover */
+}
+
+
+:root {
+  --card-height: 300px;
+  --card-width: calc(var(--card-height) / 1.5);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  background: #191c29;
+}
+
+.card1 {
+  width: var(--card-width);
+  height: var(--card-height);
+  position: relative;
+  display: flex;
+  /* justify-content: center; */
+  align-items: flex-end;
+  padding: 0 36px;
+  perspective: 2500px;
+  margin: 0 50px;
+}
+
+.cover-image {
+  width: 100%;
+  height: 100%;
+  /* background-color:#DCECF4; */
+  object-fit: cover;
+}
+
+.wrapper {
+  transition: all 0.5s;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+.card1:hover .wrapper {
+  transform: perspective(900px) translateY(-5%) rotateX(25deg) translateZ(0);
+  box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+}
+
+.wrapper::before,
+.wrapper::after {
+  content: "";
+  opacity: 0;
+  width: 100%;
+  height: 80px;
+  transition: all 0.5s;
+  position: absolute;
+  left: 0;
+}
+
+.wrapper::before {
+  top: 0;
+  height: 100%;
+  background-image: linear-gradient(to top,
+      transparent 46%,
+      rgba(12, 13, 19, 0.5) 68%,
+      rgba(12, 13, 19) 97%);
+}
+
+.wrapper::after {
+  bottom: 0;
+  opacity: 1;
+  background-image: linear-gradient(to bottom,
+      transparent 46%,
+      rgba(12, 13, 19, 0.5) 68%,
+      rgba(12, 13, 19) 97%);
+}
+
+.card1:hover .wrapper::before,
+.wrapper::after {
+  opacity: 1;
+}
+
+.card:hover .wrapper::after {
+  height: 120px;
+}
+
+.title {
+  width: 100%;
+  transition: transform 0.5s;
+}
+
+.card1:hover .title {
+  transform: translate3d(0%, -50px, 100px);
+}
+
+.character {
+  width: 100%;
+  opacity: 0;
+  transition: all 0.5s;
+  position: absolute;
+  z-index: -1;
+}
+
+.card1:hover .character {
+  opacity: 1;
+  transform: translate3d(0%, -30%, 100px);
+}
+
+
+.footer h1 {
+  display: flex;
+  /* padding-top: 1rem; */
+  font-size: 1rem;
+  height: 5rem;
+  align-items: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(161, 26, 26);
+}
+
+
+
+
+
+
